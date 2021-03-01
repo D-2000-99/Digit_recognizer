@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Bungee Shade -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <!-- Space Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Digit Recognizer</title>
+</head>
+<body>
+	<div id="main">
+    <h1 id='heading'>DIGIT RECOGNIZER.</h1>
+    
+    <div class="sub_grid_left">
+        <canvas id='container' width="500px" height="500px"></canvas>
+    </div>
+
+    <div class="sub_grid_right">
+        <button id='sub'>Submit</button>
+        <button id='clear'>Clear</button>
+        <p class="content"> Draw a number on the grid and hit submit.<br><br>NOTE:<br> A small dataset was used to train the Neural Network and is hence prone to errors.</p>
+    </div>
+
+</div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
