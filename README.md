@@ -8,5 +8,5 @@ https://digit-recognizer-conv.herokuapp.com/
 
 The Neural Network was trained on a portion of the MNIST dataset with 98.7% accuracy on the test set using a Convolutional Neural Network after data augmentation.
 
-# Issues
+## Issues
 Since the dataset it was trained on is not too large, the model faces difficulty in recognizing certain numbers more than the others. Notably, the number '6' seems to difficult for the neural network to correctly classify.
