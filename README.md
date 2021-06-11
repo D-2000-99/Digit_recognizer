@@ -1,7 +1,7 @@
 # Digit recognizer
 
 https://digit-recognizer-conv-eu.herokuapp.com/
-The Digit Recognizer allow you to draw a number on an HTML canvas, and a Neural Network attempts to predict the outcome.
+<p>The Digit Recognizer allow you to draw a number on an HTML canvas, and a Neural Network attempts to predict the outcome.</p>
 
 ## Please note: 
 Since the slug size is a bit on the higher side due to dependencies, The application might take a few minutes to load as heroku slows down boot times of larger slugs on the free tier.
