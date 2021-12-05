@@ -7,7 +7,7 @@ https://digit-recognizer-conv-eu.herokuapp.com/
 
 ### 🛑 PLEASE NOTE:
 
-The app is hosted on a free Heroku tier and you are likely to encounter delays in the output. Please wait around a minute before refreshing the page. This is purely the result of Heroku limiting bandwidth for apps hosted on the free tier and the app runs instantaneously on a local machine or on paid instances like Elastic Beanstalk.
+The app is hosted on a free Heroku tier and you are likely to encounter delays in the output. Please wait around a minute before refreshing the page. This is purely the result of Heroku limiting bandwidth for apps hosted on the free tier and the app runs instantaneously on a local machine or on paid instances like AWS Elastic Beanstalk.
 <hr>
 
 ![Screenshot (390)](https://user-images.githubusercontent.com/68558063/109596251-ddd5df00-7b3b-11eb-8a7e-ea9ed7727fd3.png)
