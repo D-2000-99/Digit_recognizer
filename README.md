@@ -1,6 +1,6 @@
 # 🔢Digit recognizer
 
-https://digit-recognizer-conv-eu.herokuapp.com/
+https://digit-recognizer-conv-eu.herokuapp.com/ - Heroku (Slow)
 <p>The Digit Recognizer allow you to draw a number on an HTML canvas, and a Neural Network attempts to predict the outcome.</p>
 
 <hr>
